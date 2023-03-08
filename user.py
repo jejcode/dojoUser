@@ -27,8 +27,9 @@ class User:
             print(f"{self.first_name}, you don't have that many points to spend.")
 
 joel = User('Joel', 'Jacobson', 'joel@codingisthebestever.com', 21)
+joel.display_info()
 joel.enroll()
-# joel.display_info()
+joel.display_info()
 
 aslan = User('Aslan','','aslan@narnia.com', 457)
 mr_tumnus = User('Mr', 'Tumnus', 'mrTum@narnia.com', 25)
